@@ -15,6 +15,8 @@ And if you like the project, but just don't have time to contribute, that's fine
 ## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
+- [Contributor License Agreement (CLA)](#contributor-license-agreement-cla)
+- [Obvious Fix Policy](#obvious-fix-policy)
 - [Getting Started](#getting-started)
   - [Issues](#issues)
   - [Enhancements](#enhancements)
@@ -30,6 +32,27 @@ And if you like the project, but just don't have time to contribute, that's fine
 ## Code of Conduct
 
 We take our open source community seriously and hold ourselves and other contributors to high standards of communication. By participating and contributing to this project, you agree to uphold our [Code of Conduct](https://github.com/StevenJDH/.github/blob/main/docs/CODE_OF_CONDUCT.md).
+
+## Contributor License Agreement (CLA)
+
+Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
+
+## Obvious Fix Policy
+
+> Small contributions such as fixing spelling errors, where the content is small enough to not be considered intellectual property, can be submitted by a contributor as a patch, without a CLA.
+>
+>As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
+>* Spelling / grammar fixes
+>* Typo correction, white space and formatting changes
+>* Comment clean up
+>* Bug fixes that change default return values or error codes stored in constants
+>* Adding logging messages or debugging output
+>* Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
+>* Moving source files from one directory or package to another
+
+[source: [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#chef-obvious-fix-policy)]
+
+If this applies to your PR changes, then please type `Obvious Fix` in a comment under the pull request to invoke this rule.
 
 ## Getting Started
 
